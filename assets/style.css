@@ -1,51 +1,38 @@
-.sidenav {
+
+  html, body {
+    background-color: lightgray;
     height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: white;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-  }
-  
-  .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: darkgray;
-    display: block;
-    transition: 0.3s;
-  }
-  
-  .sidenav a:hover {
-    color: #910707;
-  }
-  
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-  
-  #main {
-    transition: margin-left .5s;
-    padding: 16px;
-    color: #910707;
-    background-color: white;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
   }
 
-  html {
-      background-color: lightgray;
+  .topnav {
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .main-header{
+    float: left;
+    color: #910707;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .topnav a {
+    float: right;
+    color: #910707;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    color: darkgray;
+  }
+  
+  .page-wrapper {
+    min-height: 100%;
+    background-color: lightgray;
   }
 
   .hometext {
@@ -57,5 +44,51 @@
 
   .call-us {
       color: #910707;
+      background-color:lightgray;
   }
 
+
+
+  .footer {
+  background: white;
+  color: black;
+  height: 400px;
+  position: relative;
+  }
+
+  .footer .footer-content {
+    border: 1px solid white;
+    height: 350px;
+    display: flex;
+  }
+
+  .footer .footer-content .footer-section {
+    flex: 1;
+    padding: 25px;
+  }
+  .logo-text {
+    color: #910707;
+  }
+
+  .logo-text1 {
+    color: black;
+  }
+
+  .fa-3x {
+    color: #910707;
+  }
+
+  .footer .footer-bottom {
+    background: #f8f8ff;
+    color: #910707;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+
+  }
+
+ 
