@@ -179,6 +179,10 @@
   .footer .footer-content .contact-form {
     padding-bottom: 90px;
   }
+
+  .google {
+    max-width: 100%;
+  }
   }
   
   
