@@ -140,5 +140,19 @@
    header .logo {
      margin-left: .5em;
    }
+
+   .footer {
+    height: auto;
   }
+
+  .footer .footer-content {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .footer .footer-content .contact-form {
+    padding-bottom: 90px;
+  }
+  }
+  
   
