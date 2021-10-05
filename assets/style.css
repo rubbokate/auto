@@ -79,7 +79,24 @@
     background-color:lightgray;
   }
 
+  .contacttext {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 100px;
+    font-family: block;
+  }
+  .contact-textbox {
+    margin-left: 100px;
+  }
 
+
+  .shop-photo {
+    height: 450px;
+    width: 100%;
+  }
 
   .footer {
     background: white;
