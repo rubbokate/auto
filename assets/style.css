@@ -98,6 +98,25 @@
     width: 100%;
   }
 
+  .column {
+    display: block;
+    float: left;
+  }
+  
+
+  .contact-pic {
+    font-size: 5em;
+    
+  }
+
+  .contact-2 {
+    font-size: 5em;
+  }
+
+  .contact-3 {
+    font-size: 5em;
+  }
+
   .footer {
     background: white;
     color: black;
@@ -175,6 +194,30 @@
 
    .hometext {
     font-size: 12px;
+   }
+
+   .shop-photo {
+    max-width: 100%;
+    max-height: 100%;
+   }
+
+   .contacttext {
+     text-align: center;
+   }
+
+   .contact-pic{
+     font-size: 2em;
+     padding-right: 20px;
+   }
+
+   .contact-2{
+     font-size: 2em;
+     padding-left: 20px;
+   }
+
+   .contact-3{
+     font-size: 2em;
+     padding-left: 30px;
    }
 
    .footer {
