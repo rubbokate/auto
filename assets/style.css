@@ -105,6 +105,11 @@
     width: 100%;
   }
 
+  .gallery-photo {
+    height: 250px;
+    width: 50%;
+  }
+
   .contact-pic {
     font-size: 5em;
 
